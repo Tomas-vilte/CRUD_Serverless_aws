@@ -2,7 +2,7 @@ window.addEventListener("load", cargarDatos())
 
 async function cargarDatos() {
     // Realiza la petición a la API REST
-    const response = await fetch("https://0ehof08ds0.execute-api.us-east-1.amazonaws.com/prod/persons",{
+    const response = await fetch("",{
         method: "GET",
         headers: {
             'Accept': 'application/json'
